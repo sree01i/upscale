@@ -54,6 +54,9 @@ node *newnode(int data)
 } 
 int main() 
 { 
+	int k;
+	cout<<"k = ";
+	cin>>k;
 	node *root = newnode(20); 
 	root->left = newnode(8); 
 	root->right = newnode(22); 
@@ -62,6 +65,6 @@ int main()
 	root->left->right->left = newnode(10); 
 	root->left->right->right = newnode(14); 
 	node *target = root->left->right; 
-	printkdistanceNode(root, target, 2);
+	printkdistanceNode(root, target, k);
 	return 0;
 }
