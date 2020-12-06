@@ -61,6 +61,8 @@ int rotOranges(int v[R][C])
 int main()
 {
 	int v[R][C] = {{ 2, 1, 0, 2, 1 },{ 1, 0, 1, 2, 1 },{ 1, 0, 0, 2, 1 }};
-	cout << "Max time incurred: " << rotOranges(v);
+	cout << "time frames: " << rotOranges(v)<<endl;
+	cout<<"fresh oranges: "<<"_"<<endl;
+	cout<<"Rotten oranges: "<<"_"<<endl;
 	return 0;
 }
